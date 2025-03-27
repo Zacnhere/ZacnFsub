@@ -40,7 +40,7 @@ async def _(_, query: CallbackQuery):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="Owner", user_id=1325957770),
+                    InlineKeyboardButton(text="Owner", user_id=1361379181),
                 ],
                 [
                     InlineKeyboardButton(
@@ -79,10 +79,10 @@ async def _(_, callback_query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "Tutorial", url="https://t.me/RuangZeeb"
+                        "Tutorial", url="https://t.me/StoreKueren"
                     ),
                     InlineKeyboardButton(
-                        "Support", url="https://t.me/ZeebSupport"
+                        "Support", url="https://t.me/ZacnnSupport"
                     ),
                 ],
                 [
@@ -105,15 +105,15 @@ async def _(c, callback_query: CallbackQuery):
     if c.me.id != BOT_ID:
         return
     user_id = callback_query.from_user.id
-    zeebfly = await cek_seller()
-    if user_id not in MEMBER and user_id not in zeebfly:
+    zacnvors = await cek_seller()
+    if user_id not in MEMBER and user_id not in zacnvors:
         for X in zeebfly:
             await c.resolve_peer(X)
         buttons = InlineKeyboard(row_width=3)
         keyboard: List[InlineKeyboardButton] = []
-        for i in range(len(zeebfly)):
+        for i in range(len(zacnvors)):
             list_admin = f"👮🏼 Admin {i}"
-            id_admin = zeebfly[i]
+            id_admin = zacnvors[i]
             keyboard.append(
                 InlineKeyboardButton(
                     list_admin,

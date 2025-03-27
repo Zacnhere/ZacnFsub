@@ -59,7 +59,7 @@ buttons2 = [
     ],
     [
         InlineKeyboardButton("☎️ Admin ☎️", callback_data="cb_admines"),
-        InlineKeyboardButton("💬 Support 💬", url="https://t.me/ZeebSupport"),
+        InlineKeyboardButton("💬 Support 💬", url="https://t.me/Cari_Teman_Fwb_Ahh"),
     ],
     [
         InlineKeyboardButton("❗️Information❗️", callback_data="cb_tutor"),

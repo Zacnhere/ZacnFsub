@@ -19,40 +19,40 @@
 			"size":"basic"
 		}
 	},
-	"repository":"https://github.com/hakutakaid/fsubtango.git",
+	"repository":"https://github.com/Zacnhere/ZacnFsub",
 	"env":{
 		"BOT_TOKEN":{
-			"description":"Token Bot Telegram",
+			"description":"7664621137:AAGKbBpdOBfApMxF4lCtgQHEjUpJhucZGls",
 			"required":false,
 			"value":""
 		},
 		"API_ID":{
-			"description":"ID API Telegram",
+			"description":"8986091",
 			"required":false,
 			"value":""
 		},
 		"API_HASH":{
-			"description":"Hash API Telegram",
+			"description":"c568be6936fb9df2a9ac17cce099e748",
 			"required":false,
 			"value":""
 		},
 		"MONGO_URL":{
-			"description":"URL MongoDB",
+			"description":"mongodb+srv://zacnmusic:zacnmusic@cluster0.jhgvg.mongodb.net/?retryWrites=true&w=majority&appName=ZACNHERE",
 			"required":false,
 			"value":""
 		},
 		"ADMINS":{
-			"description":"Daftar Admin ID",
+			"description":"1361379181",
 			"required":false,
 			"value":""
 		},
 		"LOG_GRP":{
-			"description":"Grup Log ID Jangan Lupa Jadiin Admin",
+			"description":"-1002166782827",
 			"required":false,
 			"value":""
 		},
 		"BOT_ID":{
-			"description":"ID Bot",
+			"description":"7664621137",
 			"required":false,
 			"value":""
 		}
